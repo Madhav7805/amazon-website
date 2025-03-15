@@ -2,10 +2,15 @@ body{
     display: flex;
     flex-direction: column;
     height: inherit;
-}
+}                                                 
+
+                                                        /*  */
+
+
 #nav{height: 80px;
-    background-color: #000000;
+    
     display: flex;  
+    background-color: #000000;
 }
 
 #logo{

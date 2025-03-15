@@ -1,0 +1,62 @@
+BODY{
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: right;
+    flex-direction: row;
+    
+    
+   
+
+}
+.b{
+    background-image:url(fashion.jpg);
+    height: 460PX;
+    width: 700PX;
+    margin-top: 120px;
+    background-size: contain;
+    border-radius: 30px;
+
+}
+.c{
+    background-image: url(amazon.jpg);
+    height: 30px;
+    width: 101px;
+    margin-left: 0px;
+    margin-top:0px;
+}
+#LOGIN{
+    background-color: rgb(240, 248, 132);
+    background-image:url(design5.jpg) ;
+    height: 500PX;
+    width: 500PX;
+    margin: 100PX;
+    text-align: center;
+    font-size: x-large;
+    font-style: italic;
+    /* margin-right:200px; */
+    border-radius: 10px;
+}
+input{
+    height: 40PX;
+    width: 300PX;
+    margin: 10px;
+    border-radius: 10px;
+}
+#bg-video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+
+}
+button{
+    height: 40PX;
+    width: 100PX;
+    margin: 30px;
+    border-radius: 10px;
+    background-color:orange;
+
+}
